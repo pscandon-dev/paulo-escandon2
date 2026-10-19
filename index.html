@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Portafolio académico de Paulo César Escandón Panchana: geomática, teledetección, inteligencia artificial y planificación territorial sostenible.">
+  <title>Paulo Escandón | Geomática e investigación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#080b14;--panel:#101626;--panel2:#131c30;--text:#f2f5ff;--muted:#aab5ce;--line:rgba(174,192,230,.16);--cyan:#65e4df;--violet:#a79bff;--gold:#f4d18a;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:radial-gradient(ellipse at 75% 0%,#1b2240 0,transparent 36%),radial-gradient(ellipse at 10% 30%,#0b303a 0,transparent 30%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}a:hover{color:var(--cyan)}.wrap{width:min(var(--max),calc(100% - 42px));margin:auto}
+    .nav{position:sticky;top:0;z-index:10;background:rgba(8,11,20,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:700 17px "Space Grotesk";letter-spacing:-.04em}.brand span{color:var(--cyan)}.links{display:flex;gap:22px;align-items:center;font-size:13px;color:var(--muted)}.links a{white-space:nowrap}.menu{display:none;background:none;border:1px solid var(--line);color:white;border-radius:10px;padding:8px 12px}
+    .hero{min-height:650px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:56px;padding:78px 0 88px;position:relative}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--cyan);text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:700}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan)}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.12;letter-spacing:-.045em}h1{font-size:clamp(42px,6vw,76px);margin:21px 0 16px}h1 span{display:block;background:linear-gradient(100deg,var(--cyan),#c2bcff 75%);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:18px;line-height:1.7;color:#c1cbe0;max-width:610px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:29px 0 26px}.btn{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:12px;padding:12px 17px;font-size:14px;font-weight:700;transition:.2s}.btn.primary{background:var(--cyan);color:#061417;border-color:var(--cyan)}.btn:hover{transform:translateY(-2px)}.quicklinks{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:13px}.quicklinks a{border-bottom:1px solid #58647d;padding-bottom:2px}
+    .orbital{min-height:420px;position:relative;display:grid;place-items:center}.orbit{position:absolute;border:1px solid rgba(101,228,223,.22);border-radius:50%;transform:rotate(-25deg)}.o1{width:360px;height:360px}.o2{width:290px;height:430px;transform:rotate(54deg);border-color:rgba(167,155,255,.26)}.o3{width:430px;height:190px;transform:rotate(35deg);border-color:rgba(244,209,138,.22)}.planet{width:225px;height:225px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#5b899d 0,#233a59 28%,#151b36 60%,#080b14 75%);box-shadow:inset -28px -20px 45px #050711,0 0 80px rgba(101,228,223,.12);display:grid;place-items:center;border:1px solid rgba(255,255,255,.16);position:relative}.initials{font:700 58px "Space Grotesk";letter-spacing:-.08em;color:#eafaff;text-shadow:0 0 25px #65e4df77}.sat{position:absolute;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 20px var(--gold);top:48px;right:68px}.float-card{position:absolute;background:rgba(16,22,38,.9);border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:0 15px 50px #0005;backdrop-filter:blur(12px)}.float-card b{display:block;font:600 13px "Space Grotesk"}.float-card small{color:var(--muted);font-size:11px}.fc1{top:55px;left:0}.fc2{right:-3px;bottom:60px}.fc3{left:12px;bottom:35px}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:-22px;position:relative}.stat{background:rgba(16,22,38,.92);padding:22px 24px}.stat strong{display:block;font:700 28px "Space Grotesk";color:var(--cyan)}.stat span{color:var(--muted);font-size:12px}
+    section{padding:92px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:32px}.kicker{color:var(--cyan);font-size:11px;text-transform:uppercase;letter-spacing:.17em;font-weight:700}.section-head h2{font-size:clamp(31px,4vw,46px);margin:8px 0 0}.section-head p{max-width:470px;color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);background:linear-gradient(145deg,rgba(19,28,48,.92),rgba(12,17,30,.92));border-radius:18px;padding:25px;transition:.25s}.card:hover{transform:translateY(-4px);border-color:#65e4df66}.iconbox{width:43px;height:43px;border-radius:12px;background:#65e4df16;border:1px solid #65e4df38;display:grid;place-items:center;color:var(--cyan);font-size:21px;margin-bottom:20px}.card h3{font-size:20px;margin:0 0 10px}.card p{color:var(--muted);font-size:14px;margin:0}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.tag{border:1px solid var(--line);border-radius:999px;padding:5px 9px;font-size:11px;color:#c8d3e8}
+    .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}.quote-panel{padding:30px;border-radius:20px;background:linear-gradient(150deg,#132f3c,#14172e 70%);border:1px solid var(--line);min-height:100%;display:flex;flex-direction:column;justify-content:space-between}.quote-panel blockquote{font:500 25px/1.45 "Space Grotesk";letter-spacing:-.03em;margin:0}.quote-panel blockquote em{color:var(--cyan);font-style:normal}.quote-panel .tiny{font-size:12px;color:var(--muted);margin-top:30px}.about-copy p{color:#c0cbe0;margin-top:0}.timeline{display:grid;gap:12px}.timeline-item{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:19px 21px;border:1px solid var(--line);border-radius:14px;background:#1016269c}.date{color:var(--cyan);font:600 13px "Space Grotesk"}.timeline-item h3{font-size:17px;margin:0 0 5px;letter-spacing:-.02em}.timeline-item p{margin:0;color:var(--muted);font-size:13px}
+    .pub-list{display:grid;gap:12px}.pub{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px 24px;border:1px solid var(--line);border-radius:15px;background:#1016269c}.pub h3{font-size:16px;line-height:1.4;letter-spacing:-.02em;margin:0 0 8px}.pub p{margin:0;color:var(--muted);font-size:13px}.pub .year{font:700 12px "Space Grotesk";color:var(--gold);white-space:nowrap}.pub .doi{display:inline-block;color:var(--cyan);font-size:12px;margin-top:8px}
+    .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project{min-height:220px;position:relative;overflow:hidden}.project:after{content:"";position:absolute;width:160px;height:160px;border:1px solid #65e4df25;border-radius:50%;right:-65px;bottom:-70px;box-shadow:0 0 0 22px #65e4df08,0 0 0 48px #65e4df06}.project .number{font:700 12px "Space Grotesk";color:var(--cyan);margin-bottom:25px;display:block}.project h3{font-size:23px;max-width:380px}.project p{max-width:450px}
+    .education{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.edu{padding:23px;border-left:2px solid var(--cyan);background:#1016269c;border-radius:0 14px 14px 0}.edu .level{font-size:11px;text-transform:uppercase;letter-spacing:.13em;color:var(--cyan);font-weight:700}.edu h3{font-size:18px;margin:11px 0 7px}.edu p{font-size:13px;color:var(--muted);margin:0}
+    .honors{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.honor{display:flex;gap:14px;padding:18px;border:1px solid var(--line);border-radius:14px;background:#1016269c}.honor .medal{font-size:23px}.honor strong{display:block;font-size:14px}.honor span{font-size:12px;color:var(--muted)}
+    .contact{border:1px solid #65e4df35;border-radius:24px;background:radial-gradient(ellipse at 90% 10%,#26375b 0,transparent 45%),linear-gradient(130deg,#10252e,#11172a);padding:clamp(28px,5vw,55px);display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.contact h2{font-size:clamp(32px,4vw,48px);margin:10px 0}.contact p{color:var(--muted);max-width:580px}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:205px}.footer{padding:35px 0 45px;color:var(--muted);font-size:12px}.footerin{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}.footer a{color:var(--cyan)}
+    @media(max-width:850px){.links{display:none;position:absolute;top:70px;left:0;right:0;background:#0b1020;padding:20px 24px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;gap:12px;padding-top:60px}.orbital{min-height:370px;max-width:520px;width:100%;margin:auto}.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.quote-panel{min-height:250px}.section-head{display:block}.section-head p{margin-top:14px}.education{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.contact-actions{flex-direction:row;flex-wrap:wrap}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}.hero{padding:48px 0 65px}h1{font-size:43px}.lead{font-size:16px}.orbital{transform:scale(.88);margin:-10px auto;min-height:330px}.fc1{left:-6px}.fc2{right:-5px}.stats{margin-top:0}.stat{padding:17px}.stat strong{font-size:24px}section{padding:68px 0}.grid,.project-grid,.honors{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:7px}.pub{grid-template-columns:1fr}.pub .year{grid-row:1}.card{padding:22px}.contact-actions{flex-direction:column}}
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.planet {
+  overflow: hidden;
+}
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#inicio">P<span>.</span> ESCANDÓN</a>
+    <nav class="links" id="navlinks" aria-label="Navegación principal">
+      <a href="#perfil">Perfil</a><a href="#areas">Especialidades</a><a href="#experiencia">Experiencia</a><a href="#publicaciones">Publicaciones</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu" id="menubtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <section class="hero" id="inicio">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Investigador · Docente · Geomática</div>
+        <h1>Paulo César<br>Escandón Panchana<span>Ph.D. (c) en Ingeniería Geomática</span></h1>
+        <p class="lead">Integro geomática, teledetección, inteligencia artificial y análisis espacial para transformar datos geográficos en conocimiento útil para la gestión ambiental y la planificación territorial sostenible.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#publicaciones">Explorar publicaciones ↗</a>
+          <a class="btn" href="assets/CV_Paulo_Escandon.pdf" target="_blank" rel="noopener">↓ Descargar CV</a>
+        </div>
+        <div class="quicklinks">
+          <a href="https://orcid.org/0000-0002-7788-3118" target="_blank" rel="noopener">ORCID ↗</a>
+          <a href="https://www.linkedin.com/in/paulo-escand%C3%B3n-2514a4264/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:pscandon@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="orbital" aria-label="Ilustración abstracta de ciencia geoespacial">
+        <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+        <div class="planet">
+  <img
+    src="assets/paulo-escandon.jpg"
+    alt="Paulo Escandón"
+    class="profile-photo"
+  />
+  <span class="sat"></span>
+</div>
+        <div class="float-card fc1"><b>Geospatial intelligence</b><small>Datos · Modelos · Territorio</small></div>
+        <div class="float-card fc2"><b>Research & innovation</b><small>Publicaciones científicas</small></div>
+        <div class="float-card fc3"><b>Ecuador 🇪🇨</b><small>Santa Elena</small></div>
+      </div>
+    </section>
+    <div class="stats">
+      <div class="stat"><strong>15+</strong><span>Años de trayectoria profesional*</span></div>
+      <div class="stat"><strong>25+</strong><span>Publicaciones y contribuciones científicas*</span></div>
+      <div class="stat"><strong>4</strong><span>Líneas principales de investigación</span></div>
+      <div class="stat"><strong>2026</strong><span>Investigación y colaboración académica</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:10px;margin:9px 3px 0">*Indicadores gráficos aproximados; revisar y ajustar antes de publicar.</p>
+  </div>
+
+  <section id="perfil">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">01 / Perfil</div><h2>Ciencia espacial con<br>impacto territorial.</h2></div><p>Una trayectoria que conecta docencia, investigación aplicada y desarrollo de herramientas para comprender sistemas territoriales complejos.</p></div>
+      <div class="about-grid">
+        <div class="quote-panel"><blockquote>“Convertir información geoespacial en <em>evidencia</em> para tomar mejores decisiones sobre el territorio.”</blockquote><div class="tiny">ENFOQUE DE INVESTIGACIÓN<br>Geomática · Sostenibilidad · Innovación</div></div>
+        <div class="about-copy">
+          <p>Soy ingeniero en Sistemas y magíster en Gerencia y Liderazgo Educacional, actualmente cursando el Doctorado en Ingeniería Geomática en la Universidad Politécnica de Madrid. Mi experiencia combina docencia universitaria, investigación científica y participación en proyectos de análisis espacial y gestión ambiental.</p>
+          <p>Mis trabajos recientes abordan el catastro agrícola inteligente, la cartografía con vehículos aéreos no tripulados, la teledetección multitemporal, los indicadores geográficos de sostenibilidad y la optimización espacial aplicada a la planificación rural.</p>
+          <div class="tags"><span class="tag">Investigación aplicada</span><span class="tag">Análisis espacial</span><span class="tag">Sostenibilidad</span><span class="tag">Docencia universitaria</span><span class="tag">Escritura científica</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">02 / Especialidades</div><h2>Áreas de trabajo</h2></div><p>Herramientas y enfoques para observar, modelar y planificar el territorio a distintas escalas.</p></div>
+      <div class="grid">
+        <article class="card"><div class="iconbox">⌖</div><h3>Geomática y SIG</h3><p>Integración de datos geográficos, cartografía temática, análisis territorial y sistemas de apoyo a decisiones.</p><div class="tags"><span class="tag">GIS</span><span class="tag">GNSS</span><span class="tag">Cartografía</span></div></article>
+        <article class="card"><div class="iconbox">◉</div><h3>Teledetección</h3><p>Análisis multitemporal de imágenes satelitales y UAV para estudiar coberturas, cambios y dinámicas ambientales.</p><div class="tags"><span class="tag">Sentinel</span><span class="tag">UAV / RPAS</span><span class="tag">Google Earth Engine</span></div></article>
+        <article class="card"><div class="iconbox">⌘</div><h3>IA y modelación espacial</h3><p>Aplicación de algoritmos y modelos para clasificar información, detectar patrones y respaldar decisiones territoriales.</p><div class="tags"><span class="tag">Machine learning</span><span class="tag">Optimización</span><span class="tag">Modelos espaciales</span></div></article>
+        <article class="card"><div class="iconbox">⌁</div><h3>Catastro agrícola</h3><p>Caracterización de parcelas y articulación de información agrícola, productiva y territorial para planificación rural.</p><div class="tags"><span class="tag">Parcelas</span><span class="tag">Agricultura</span><span class="tag">Planificación rural</span></div></article>
+        <article class="card"><div class="iconbox">♧</div><h3>Sostenibilidad ambiental</h3><p>Indicadores geográficos y análisis de presiones ambientales en territorios urbanos, rurales y costeros.</p><div class="tags"><span class="tag">Indicadores</span><span class="tag">Cambio de uso</span><span class="tag">Gestión ambiental</span></div></article>
+        <article class="card"><div class="iconbox">✳</div><h3>Investigación científica</h3><p>Revisiones sistemáticas, análisis bibliométrico, diseño metodológico y comunicación de resultados científicos.</p><div class="tags"><span class="tag">Revisión sistemática</span><span class="tag">Bibliometría</span><span class="tag">Publicaciones</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">03 / Trayectoria</div><h2>Experiencia académica<br>y profesional</h2></div><p>Experiencia en sistemas, docencia universitaria, investigación y laboratorios de geoinformación.</p></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="date">2026</div><div><h3>Profesor invitado · Universidad Estatal de Milagro (UNEMI)</h3><p>Colaboración académica e investigación aplicada.</p></div></div>
+        <div class="timeline-item"><div class="date">2025</div><div><h3>Técnico de Laboratorio de Geoinformación · ESPOL</h3><p>Apoyo técnico en actividades relacionadas con geoinformación y teledetección.</p></div></div>
+        <div class="timeline-item"><div class="date">2022–2024</div><div><h3>Investigador · CIPAT, ESPOL</h3><p>Participación en proyectos y producción científica vinculados con geomática, territorio y ambiente.</p></div></div>
+        <div class="timeline-item"><div class="date">2013–2021</div><div><h3>Docente · Universidad Estatal Península de Santa Elena (UPSE)</h3><p>Docencia en matemáticas, estadística, programación, análisis numérico e ingeniería económica.</p></div></div>
+        <div class="timeline-item"><div class="date">2013</div><div><h3>Docente de Informática · Academia Naval “Capitán Leonardo Abad Astudillo”</h3><p>Enseñanza de informática.</p></div></div>
+        <div class="timeline-item"><div class="date">2011–2012</div><div><h3>Jefe de Sistemas · GAD Municipal de Salinas</h3><p>Experiencia profesional en gestión de sistemas.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="publicaciones">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">04 / Producción científica</div><h2>Publicaciones destacadas</h2></div><p>Una selección de artículos y contribuciones recientes. Consulta el perfil ORCID para ampliar la bibliografía.</p></div>
+      <div class="pub-list">
+        <article class="pub"><div><h3>A cadastral-based optimisation framework using genetic algorithms for agricultural production and rural planning</h3><p>Modeling Earth Systems and Environment · 2026</p><a class="doi" href="https://doi.org/10.1007/s40808-026-02838-0" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2026</span></article>
+        <article class="pub"><div><h3>Review of artificial intelligence in the agricultural cadastre: transforming agro-territorial management for global sustainability</h3><p>GeoJournal · 2026</p><a class="doi" href="https://doi.org/10.1007/s10708-026-11697-2" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2026</span></article>
+        <article class="pub"><div><h3>Key geographical indicators for environmental, social and economic sustainability of land use</h3><p>Global Journal of Environmental Science and Management · 2026</p><a class="doi" href="https://doi.org/10.22034/gjesm.2026.04.24" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2026</span></article>
+        <article class="pub"><div><h3>Geospatial dataset of oil wells and socio-environmental vulnerability indicators in coastal urban territories</h3><p>Data in Brief · 2026</p><a class="doi" href="https://doi.org/10.1016/j.dib.2026.112960" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2026</span></article>
+        <article class="pub"><div><h3>Applications of geomatics in multidisciplinary knowledge fields. A review for decision-makers</h3><p>Discover Applied Sciences · 2025</p><a class="doi" href="https://doi.org/10.1007/s42452-025-07928-9" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2025</span></article>
+        <article class="pub"><div><h3>Artificial intelligence in agricultural mapping: A review</h3><p>Agriculture · 2024</p><a class="doi" href="https://doi.org/10.3390/agriculture14071071" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2024</span></article>
+        <article class="pub"><div><h3>Geomatic tools used in the management of agricultural activities: a systematic review</h3><p>Environment, Development and Sustainability · 2024</p><a class="doi" href="https://link.springer.com/search?query=Geomatic%20tools%20used%20in%20the%20management%20of%20agricultural%20activities" target="_blank" rel="noopener">Buscar publicación ↗</a></div><span class="year">2024</span></article>
+        <article class="pub"><div><h3>CLUE-S model based on GIS applied to management strategies of territory with oil wells—Case study: Santa Elena, Ecuador</h3><p>Geography and Sustainability · 2022</p><a class="doi" href="https://doi.org/10.1016/j.geosus.2022.11.001" target="_blank" rel="noopener">Leer artículo ↗</a></div><span class="year">2022</span></article>
+      </div>
+      <div style="margin-top:22px"><a class="btn" href="https://orcid.org/0000-0002-7788-3118" target="_blank" rel="noopener">Ver todas en ORCID ↗</a></div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">05 / Investigación aplicada</div><h2>Proyectos seleccionados</h2></div><p>Estudios orientados a comprender dinámicas territoriales y aportar herramientas para la toma de decisiones.</p></div>
+      <div class="project-grid">
+        <article class="card project"><span class="number">PROYECTO 01 · 2026</span><h3>Análisis multitemporal de afectaciones ambientales en Milagro</h3><p>Uso de teledetección multifuente para caracterizar dinámicas hídricas y apoyar la zonificación de afectaciones ambientales.</p><div class="tags"><span class="tag">Sentinel-2</span><span class="tag">Análisis multitemporal</span></div></article>
+        <article class="card project"><span class="number">PROYECTO 02 · 2024</span><h3>Geomática para cartografía agrícola</h3><p>Aplicación de herramientas geoespaciales para la cartografía agrícola en Manantial de Guangala–Colonche.</p><div class="tags"><span class="tag">Cartografía agrícola</span><span class="tag">Geomática</span></div></article>
+        <article class="card project"><span class="number">PROYECTO 03 · 2023</span><h3>ILCA: cambio de cobertura en la Amazonía</h3><p>Colaboración en el análisis del impacto del cambio de cobertura del suelo con CIPAT–ESPOL e IFPA.</p><div class="tags"><span class="tag">Uso y cobertura</span><span class="tag">Amazonía</span></div></article>
+        <article class="card project"><span class="number">PROYECTO 04 · 2023</span><h3>IPUS: identificación y predicción de expansión urbana</h3><p>Estudio de patrones de crecimiento urbano y su relación con la planificación territorial.</p><div class="tags"><span class="tag">Expansión urbana</span><span class="tag">Modelación</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="formacion">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">06 / Formación</div><h2>Formación académica</h2></div><p>Base interdisciplinaria en ingeniería, educación y geomática.</p></div>
+      <div class="education">
+        <article class="edu"><div class="level">Doctorado · En curso</div><h3>Doctorado en Ingeniería Geomática</h3><p>Universidad Politécnica de Madrid</p></article>
+        <article class="edu"><div class="level">Maestría</div><h3>Magíster en Gerencia y Liderazgo Educacional</h3><p>Universidad Técnica Particular de Loja</p></article>
+        <article class="edu"><div class="level">Grado</div><h3>Ingeniero en Sistemas</h3><p>Universidad Estatal Península de Santa Elena</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="reconocimientos">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">07 / Reconocimientos</div><h2>Distinciones</h2></div></div>
+      <div class="honors">
+        <div class="honor"><div class="medal">✦</div><div><strong>Presea “General Enríquez Gallo”</strong><span>GAD Municipal de Salinas · 2022 · Contribución a la ciencia</span></div></div>
+        <div class="honor"><div class="medal">✧</div><div><strong>Diploma al mérito científico</strong><span>CIPAT–ESPOL · 2022 · Publicaciones indexadas en Scopus y Web of Science</span></div></div>
+        <div class="honor"><div class="medal">✧</div><div><strong>Diploma al mérito científico</strong><span>CIPAT–ESPOL · 2022 · Mayor producción científica</span></div></div>
+        <div class="honor"><div class="medal">✦</div><div><strong>Diploma UPSE al mérito docente</strong><span>Facultad de Ciencias de la Ingeniería · 2018</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="contact">
+        <div><div class="kicker">Hablemos de investigación</div><h2>¿Construimos algo<br>con impacto?</h2><p>Estoy abierto a colaboraciones académicas, proyectos de investigación, publicaciones científicas y oportunidades de intercambio en geomática y sostenibilidad territorial.</p></div>
+        <div class="contact-actions"><a class="btn primary" href="mailto:pscandon@gmail.com">✉ Escribir por correo</a><a class="btn" href="https://orcid.org/0000-0002-7788-3118" target="_blank" rel="noopener">ORCID ↗</a><a class="btn" href="https://www.linkedin.com/in/paulo-escand%C3%B3n-2514a4264/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footerin"><span>© <span id="year"></span> Paulo César Escandón Panchana</span><span>Geomática · Teledetección · IA · Planificación territorial</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+<script>
+  const btn=document.getElementById('menubtn'), nav=document.getElementById('navlinks');
+  btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));});
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false')}));
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
