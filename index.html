@@ -26,6 +26,26 @@
     .contact{border:1px solid #65e4df35;border-radius:24px;background:radial-gradient(ellipse at 90% 10%,#26375b 0,transparent 45%),linear-gradient(130deg,#10252e,#11172a);padding:clamp(28px,5vw,55px);display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.contact h2{font-size:clamp(32px,4vw,48px);margin:10px 0}.contact p{color:var(--muted);max-width:580px}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:205px}.footer{padding:35px 0 45px;color:var(--muted);font-size:12px}.footerin{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}.footer a{color:var(--cyan)}
     @media(max-width:850px){.links{display:none;position:absolute;top:70px;left:0;right:0;background:#0b1020;padding:20px 24px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.links.open{display:flex}.menu{display:block}.hero{grid-template-columns:1fr;gap:12px;padding-top:60px}.orbital{min-height:370px;max-width:520px;width:100%;margin:auto}.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.quote-panel{min-height:250px}.section-head{display:block}.section-head p{margin-top:14px}.education{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.contact-actions{flex-direction:row;flex-wrap:wrap}}
     @media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}.hero{padding:48px 0 65px}h1{font-size:43px}.lead{font-size:16px}.orbital{transform:scale(.88);margin:-10px auto;min-height:330px}.fc1{left:-6px}.fc2{right:-5px}.stats{margin-top:0}.stat{padding:17px}.stat strong{font-size:24px}section{padding:68px 0}.grid,.project-grid,.honors{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:7px}.pub{grid-template-columns:1fr}.pub .year{grid-row:1}.card{padding:22px}.contact-actions{flex-direction:column}}
+
+    /* Retrato: archivo ubicado en assets/paulo-escandon.jpg */
+    .planet {
+      overflow: hidden;
+      isolation: isolate;
+    }
+    .planet .profile-photo {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 35%;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+    }
+    .planet .sat {
+      z-index: 2;
+    }
+
   </style>
 </head>
 <body>
@@ -57,7 +77,9 @@
       </div>
       <div class="orbital" aria-label="Ilustración abstracta de ciencia geoespacial">
         <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
-        <div class="planet"><img src="ipaulo-escandon.jpg" alt="Paulo Escandón"></div>
+        <div class="planet">
+          <img class="profile-photo" src="assets/paulo-escandon.jpg" alt="Fotografía profesional de Paulo César Escandón Panchana">
+        </div>
         <div class="float-card fc1"><b>Geospatial intelligence</b><small>Datos · Modelos · Territorio</small></div>
         <div class="float-card fc2"><b>Research & innovation</b><small>Publicaciones científicas</small></div>
         <div class="float-card fc3"><b>Ecuador 🇪🇨</b><small>Santa Elena</small></div>
